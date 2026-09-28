@@ -344,6 +344,7 @@ public class Transactions extends javax.swing.JFrame {
     yearBox.removeAllItems();
 
     yearBox.addItem("All Years");
+    //year box
 
     for (Integer year : years) {
         yearBox.addItem(String.valueOf(year));
